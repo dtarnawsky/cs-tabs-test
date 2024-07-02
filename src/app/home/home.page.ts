@@ -11,4 +11,8 @@ import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton } from '@ionic/a
 })
 export class HomePage {
   constructor() { }
+
+  reload() {
+    window.location.reload();
+  }
 }
